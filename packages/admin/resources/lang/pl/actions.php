@@ -24,11 +24,11 @@ return [
                 ],
                 'step_two' => [
                     'label' => 'Wybierz mailer',
-                    'no_mailers' => 'Brak mailerów do wyboru.'
+                    'no_mailers' => 'Brak mailerów do wyboru.',
                 ],
                 'step_three' => [
                     'label' => 'Podejrzyj i zapisz',
-                    'no_mailers' => 'Do podglądu nie wybrano żadnych mailerów.'
+                    'no_mailers' => 'Do podglądu nie wybrano żadnych mailerów.',
                 ],
             ],
             'notification' => [

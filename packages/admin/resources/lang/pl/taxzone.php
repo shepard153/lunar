@@ -61,7 +61,7 @@ return [
 
         'zone_postcodes' => [
             'label' => 'Kody pocztowe',
-            'helper' => 'Wprowadź każdy kod pocztowy w nowej linii. Obsługuje znaki wieloznaczne, takie jak NW*'
+            'helper' => 'Wprowadź każdy kod pocztowy w nowej linii. Obsługuje znaki wieloznaczne, takie jak NW*',
         ],
 
     ],

@@ -11,7 +11,7 @@ return [
             'label' => 'Nazwa',
         ],
         'handle' => [
-            'label' => 'Slug'
+            'label' => 'Slug',
         ],
         'collections_count' => [
             'label' => 'Liczba kolekcji',

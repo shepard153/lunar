@@ -41,7 +41,7 @@ return [
         ],
         'roles' => [
             'label' => 'Role',
-            'helper' => ':roles mają pełny dostęp'
+            'helper' => ':roles mają pełny dostęp',
         ],
         'permissions' => [
             'label' => 'Uprawnienia',
@@ -67,7 +67,7 @@ return [
     'acl' => [
         'title' => 'Kontrola dostępu',
         'tooltip' => [
-            'roles-included' => 'Uprawnienie jest zawarte w następujących rolach'
+            'roles-included' => 'Uprawnienie jest zawarte w następujących rolach',
         ],
         'notification' => [
             'updated' => 'Zaktualizowano kontrolę dostępu',
