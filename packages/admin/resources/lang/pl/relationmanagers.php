@@ -184,7 +184,7 @@ return [
                 'label' => 'Minimalna ilość',
                 'helper_text' => 'Wybierz minimalną ilość, dla której ta cena będzie dostępna.',
                 'validation' => [
-                    'unique' => 'Grupa klientów i minimalna ilość muszą być unikalne.'
+                    'unique' => 'Grupa klientów i minimalna ilość muszą być unikalne.',
                 ],
             ],
             'currency_id' => [
@@ -193,7 +193,7 @@ return [
             ],
             'compare_price' => [
                 'label' => 'Cena porównawcza',
-                'helper_text' => 'Oryginalna cena lub sugerowana cena producenta, do porównania z ceną zakupu.'
+                'helper_text' => 'Oryginalna cena lub sugerowana cena producenta, do porównania z ceną zakupu.',
             ],
             'basePrices' => [
                 'title' => 'Ceny bazowe',
@@ -207,7 +207,7 @@ return [
                         'helper_text' => 'Oryginalna cena lub sugerowana cena producenta, do porównania z ceną zakupu.',
                     ],
                 ],
-                'tooltip' => 'Automatycznie generowane na podstawie kursów wymiany walut.'
+                'tooltip' => 'Automatycznie generowane na podstawie kursów wymiany walut.',
             ],
         ],
     ],

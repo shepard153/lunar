@@ -97,7 +97,7 @@ return [
                 'label' => 'Wszystkie zamówienia',
             ],
             'avg_spend' => [
-                'label' => 'Średni wydatek'
+                'label' => 'Średni wydatek',
             ],
             'total_spend' => [
                 'label' => 'Wszystkie wydatki',
