@@ -17,7 +17,7 @@ class ListSynth extends AbstractFieldSynth
 
     public function get(&$target, $key)
     {
-        return [$target->getValue(), []];
+        return (array) $target->getValue();
     }
 
     public function set(&$target, $key, $value)

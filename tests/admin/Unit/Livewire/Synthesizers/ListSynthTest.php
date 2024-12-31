@@ -46,7 +46,7 @@ describe('list field synthesizer', function () {
         $result = $this->listSynth->get($this->listField, $key);
 
         expect($result)->toBeArray()
-            ->and($result)->toEqual([$this->listField->getValue(), []]);
+            ->and($result)->toEqual((array) $this->listField->getValue());
     });
 
     test('dehydrates the list field correctly', function () {
