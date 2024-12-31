@@ -78,7 +78,7 @@ describe('list field synthesizer', function () {
 
     test('handles keys and values with dot notation', function () {
         $key = 'key.with.dots';
-        $value = 'Dot Notation Value';
+        $value = 'Dot.Notation.Value';
 
         $this->listSynth->set($this->listField, $key, $value);
 
